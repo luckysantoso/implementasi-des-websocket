@@ -16,4 +16,8 @@ Cara kerjanya adalah client mengirimkan pesan disertai tag "@id-client" tertentu
 
 # Testing
 
+**Broadcast**
 ![Testing Socket](img/image.png)
+
+**Client to Client**
+![Testing Socket](img/client-to-client.png)
