@@ -24,7 +24,7 @@ def handle_client(conn, address, key, mode, iv=None):
                 print("Mode enkripsi tidak valid atau IV belum disediakan.")
                 break
 
-            print(f"from {client_id}: {decrypt_msg}")
+            print(f"from {client_id}: {data}")
 
             # Check if the message is directed to a specific client
             if decrypt_msg.startswith("@"):
